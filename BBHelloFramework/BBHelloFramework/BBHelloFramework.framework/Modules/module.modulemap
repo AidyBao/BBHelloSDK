@@ -1,0 +1,11 @@
+framework module BBHelloFramework {
+  umbrella header "BBHelloFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module BBHelloFramework.Swift {
+    header "BBHelloFramework-Swift.h"
+    requires objc
+}
